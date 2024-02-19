@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateProductFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre Producto"/>
+        <EditText
+            android:id="@+id/edtxtcliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Producto"
+            android:textSize="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marca a la que pertenece"/>
+        <EditText
+            android:id="@+id/edtxtauto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Marca"
+            android:textSize="50dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Precio Original"
+            />
+        <EditText
+            android:id="@+id/edtxtprecioriginal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Precio Original"
+            android:textSize="50dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Precio de Venta"
+            />
+        <EditText
+            android:id="@+id/edtxtprecioventa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Precio de Venta"
+            android:textSize="50dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Imagen"
+            />
+        <EditText
+            android:id="@+id/edtxtinstalacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Añadir Imagen"
+            android:textSize="50dp"/>
+        <Button
+            android:id="@+id/btagregar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Agregar"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
